@@ -1,0 +1,110 @@
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Peralta', serif;
+}
+
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;  
+    display: block;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e; 
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.mountain {
+   padding:5px;
+}
+.middle-container {
+    background-color: #ffffff;
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+hr {
+    border: dotted #5ae0e0 6px;
+    border-bottom: none;
+    width: 4%;        
+    margin: 100px auto;    
+    }    
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+p {
+    line-height: 2,5;
+    color:#40514e;
+}
+
+.skills {
+    background-color:#ffffff;;
+}
+.btn {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #66bfbf;
+    --bs-btn-border-color: #66bfbf;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #72b7b764;
+    --bs-btn-hover-border-color: #72b7b764;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #72b7b764;
+    --bs-btn-active-border-color: #72b7b764;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #66bfbf;
+    --bs-btn-disabled-border-color: #66bfbf;
+    }
+   
